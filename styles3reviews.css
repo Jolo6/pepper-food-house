@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .reviewsh{
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: 20%;
+    margin: 0;
+    color: red;
+  }
+
+/* Polaroid Container Style */
+.polaroid-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    transform: rotate(-2deg);
+  }
+  
+  .polaroid-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+  }
+  
+  .review-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  

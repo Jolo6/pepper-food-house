@@ -1,0 +1,69 @@
+#chicken, #beef, #pork, #extra, #alacarte {
+    font-size: medium;
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Adjust the margin as needed */
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  th {
+    color: white;
+    background-color:#544034;
+  }
+  
+  td {
+    border: 1px solid #EBE7E4; /* Add borders between cells */
+  }
+  
+  #food {
+    text-align: left;
+  }
+  
+  #price {
+    text-align: center;
+  }
+  body{
+    background-color: #EBE7E4;
+    
+}
+.carousel-container {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.navigation-buttons .previous {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 10px;
+  font-weight: 700;
+}
+
+.navigation-buttons .next {
+  right: 10px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
+}
+
+.navigation-buttons .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navigation .nav-btn:hover {
+  background: white;
+}
